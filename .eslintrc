@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off",
+    "operator-linebreak": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
